@@ -1,0 +1,11 @@
+tdqm
+torch
+torchvision
+transformers
+numpy
+pandas
+openai
+zhipuai
+zai-sdk
+accelerate
+sentencepiece

@@ -1,0 +1,24 @@
+{
+    "harmbench-path": "/home/model/HarmBench-Llama-2-13b-cls",
+    "stego-folder": "./runs/stego_model",
+    "doubao": {
+        "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+        "api_key": ""
+    },
+    "qwen": {
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "api_key": ""
+    },
+    "glm": {
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "api_key": ""
+    },
+    "qianfan": {
+        "base_url": "https://qianfan.baidubce.com/v2",
+        "api_key": ""
+    },
+    "openai": {
+        "base_url": "",
+        "api_key": ""
+    }
+}
