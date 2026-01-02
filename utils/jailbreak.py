@@ -91,7 +91,7 @@ def getAnswer(img, j, args):
             },
           ],
         })
-    for first in range(0, 5):
+    for first in range(0, 10):
         completion = get_step_answer(args, msgs, tools)
         response_message = completion.choices[0].message
         tool_calls = getattr(response_message, "tool_calls", None)
@@ -138,7 +138,7 @@ def getAnswer(img, j, args):
                     },
                 ],
                 })
-            for second in range(0, 5):
+            for second in range(0, 10):
                 completion = get_step_answer(args, msgs, tools)
                 response_message = completion.choices[0].message
                 tool_calls = getattr(response_message, "tool_calls", None)
